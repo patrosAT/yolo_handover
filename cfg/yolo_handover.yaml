@@ -1,0 +1,20 @@
+yolo_handover:
+    subscription:
+        depth: /camera/depth/image_meters_aligned
+        darknet: /darknet_ros/bounding_boxes
+        egohands: /egohands/topic
+    robot:
+        arm_state: /arm/state
+        arm_servo_pose: /arm/cartesian/servo_pose
+        arm_named_pose: /arm/cartesian/named_pose
+        arm_gripper: /arm/gripper
+    movement:
+        dist_ignore: 1
+        speed_approach: 0.4
+        scaling_handover: 1
+    gripper:
+        gripper_open: 0.08
+        gripper_closed: 0.001
+    visualization: 
+        topic: /handover
+        activated: True

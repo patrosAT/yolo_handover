@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find yolo_handover)/cfg/yolo_handover.yaml" />
+  <node name="yolo_handover" pkg="yolo_handover" type="yolo_handover.py" output="screen" />
+</launch>
