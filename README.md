@@ -1,4 +1,4 @@
-# Driver for Yolo-powered human-robot handovers #
+# Driver for YOLOv3-powered human-robot handovers #
 
 Input for a student project.
 
