@@ -151,9 +151,9 @@ class YoloHandover:
         # Define new goal
         self.servo_goal = ServoToPoseGoal()
         self.servo_goal.stamped_pose.header.frame_id = 'panda_link0'
-        self.servo_goal.stamped_pose.pose.position.x = # TODO define where to go in the arm base frame
-        self.servo_goal.stamped_pose.pose.position.y = # TODO define where to go in the arm base frame
-        self.servo_goal.stamped_pose.pose.position.z = # TODO define where to go in the arm base frame
+        self.servo_goal.stamped_pose.pose.position.x = # TODO: define goal (in the camera base frame)
+        self.servo_goal.stamped_pose.pose.position.y = # TODO: define goal (in the camera base frame)
+        self.servo_goal.stamped_pose.pose.position.z = # TODO: define goal (in the camera base frame)
         self.servo_goal.stamped_pose.pose.orientation.x = self.xO
         self.servo_goal.stamped_pose.pose.orientation.y = self.yO
         self.servo_goal.stamped_pose.pose.orientation.z = self.zO
